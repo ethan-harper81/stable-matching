@@ -14,4 +14,13 @@ function getInput(){
 }
 
 
+function dropDown(){
+    let pref = [0,0,0,0,0]
+    document.getElementById('result').textContent = document.getElementById('flavors').value
+
+}
+
+
+
+
     

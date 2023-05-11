@@ -8,25 +8,286 @@
     </head>
     <body>
         <h1>STABLE MATCHING</h1>
-        <div>
-            <form>
+
+        <div class = "outer">
+
+        <div id = "form_1">
+            <form class = "name_feild">
                 <label for="name">NAME:</label>
-                <input type="text" id="name"><br>
-                <label for="choice_1">First Choice </label>
-                <input type="text" id="choice_1"><br>
-                <label for="choice_2">Second Choice</label>
-                <input type="text" id="choice_2"><br>
-                <label for="choice_3">Third Choice </label>
-                <input type="text" id="choice_3"><br>
-                <label for="choice_4">Fourth Choice</label>
-                <input type="text" id="choice_4"><br>
-                <label for="choice_5">Fifth Choice   </label>
-                <input type="text" id="choice_5"><br>
-                <input type="submit" value="SUBMIT" onclick="getInput()">
+                <input type="text" id="name_1" size = "13"><br>
             </form>
+
+            <label for="flavors">Flavor 1:</label>
+            <select name="flavors" class = "flavors flavor_1" onclick="dropDown()">
+                <option class = "choclate" value = "Choclate">Choclate</option>
+                <option class = "vanilla" value = "Vanilla">Vanilla</option>
+                <option class = "strawberry" value = "Strawberry">Strawberry</option>
+                <option class = "cookie" value = "Cookie Dough">Cookie Dough</option>
+                <option class = "moose" value = "Moose Tracks">Moose Tracks</option>
+            </select>
+
+            <label for="flavors">Flavor 2:</label>
+            <select name="flavors" class = "flavors flavor_2" onclick="dropDown()">
+                <option class = "choclate" value = "Choclate">Choclate</option>
+                <option class = "vanilla" value = "Vanilla">Vanilla</option>
+                <option class = "strawberry" value = "Strawberry">Strawberry</option>
+                <option class = "cookie" value = "Cookie Dough">Cookie Dough</option>
+                <option class = "moose" value = "Moose Tracks">Moose Tracks</option>
+            </select>
+
+            <label for="flavors">Flavor 3:</label>
+            <select name="flavors" class = "flavors flavor_3" onclick="dropDown()">
+                <option class = "choclate" value = "Choclate">Choclate</option>
+                <option class = "vanilla" value = "Vanilla">Vanilla</option>
+                <option class = "strawberry" value = "Strawberry">Strawberry</option>
+                <option class = "cookie" value = "Cookie Dough">Cookie Dough</option>
+                <option class = "moose" value = "Moose Tracks">Moose Tracks</option>
+            </select>
+
+            <label for="flavors">Flavor 4:</label>
+            <select name="flavors" class = "flavors flavor_4" onclick="dropDown()">
+                <option class = "choclate" value = "Choclate">Choclate</option>
+                <option class = "vanilla" value = "Vanilla">Vanilla</option>
+                <option class = "strawberry" value = "Strawberry">Strawberry</option>
+                <option class = "cookie" value = "Cookie Dough">Cookie Dough</option>
+                <option class = "moose" value = "Moose Tracks">Moose Tracks</option>
+            </select>
+
+            <label for="flavors">Flavor 5:</label>
+            <select name="flavors" class = "flavors flavor_5" onclick="dropDown()">
+                <option class = "choclate" value = "Choclate">Choclate</option>
+                <option class = "vanilla" value = "Vanilla">Vanilla</option>
+                <option class = "strawberry" value = "Strawberry">Strawberry</option>
+                <option class = "cookie" value = "Cookie Dough">Cookie Dough</option>
+                <option class = "moose" value = "Moose Tracks">Moose Tracks</option>
+            </select>
+            
+
+            
         </div>
+
+        
+
+        <div id = "form_2">
+            <form class = "name_feild">
+                <label for="name">NAME:</label>
+                <input type="text" id="name_2"><br>
+            </form>
+
+            <label for="flavors">Flavor 1:</label>
+            <select name="flavors" class = "flavors flavor_1" onclick="dropDown()">
+                <option class = "choclate" value = "Choclate">Choclate</option>
+                <option class = "vanilla" value = "Vanilla">Vanilla</option>
+                <option class = "strawberry" value = "Strawberry">Strawberry</option>
+                <option class = "cookie" value = "Cookie Dough">Cookie Dough</option>
+                <option class = "moose" value = "Moose Tracks">Moose Tracks</option>
+            </select>
+
+            <label for="flavors">Flavor 2:</label>
+            <select name="flavors" class = "flavors flavor_2" onclick="dropDown()">
+                <option class = "choclate" value = "Choclate">Choclate</option>
+                <option class = "vanilla" value = "Vanilla">Vanilla</option>
+                <option class = "strawberry" value = "Strawberry">Strawberry</option>
+                <option class = "cookie" value = "Cookie Dough">Cookie Dough</option>
+                <option class = "moose" value = "Moose Tracks">Moose Tracks</option>
+            </select>
+
+            <label for="flavors">Flavor 3:</label>
+            <select name="flavors" class = "flavors flavor_3" onclick="dropDown()">
+                <option class = "choclate" value = "Choclate">Choclate</option>
+                <option class = "vanilla" value = "Vanilla">Vanilla</option>
+                <option class = "strawberry" value = "Strawberry">Strawberry</option>
+                <option class = "cookie" value = "Cookie Dough">Cookie Dough</option>
+                <option class = "moose" value = "Moose Tracks">Moose Tracks</option>
+            </select>
+
+            <label for="flavors">Flavor 4:</label>
+            <select name="flavors" class = "flavors flavor_4" onclick="dropDown()">
+                <option class = "choclate" value = "Choclate">Choclate</option>
+                <option class = "vanilla" value = "Vanilla">Vanilla</option>
+                <option class = "strawberry" value = "Strawberry">Strawberry</option>
+                <option class = "cookie" value = "Cookie Dough">Cookie Dough</option>
+                <option class = "moose" value = "Moose Tracks">Moose Tracks</option>
+            </select>
+
+            <label for="flavors">Flavor 5:</label>
+            <select name="flavors" class = "flavors flavor_5" onclick="dropDown()">
+                <option class = "choclate" value = "Choclate">Choclate</option>
+                <option class = "vanilla" value = "Vanilla">Vanilla</option>
+                <option class = "strawberry" value = "Strawberry">Strawberry</option>
+                <option class = "cookie" value = "Cookie Dough">Cookie Dough</option>
+                <option class = "moose" value = "Moose Tracks">Moose Tracks</option>
+            </select>
+        </div>
+
+        
+
+        <div id = "form_3">
+            <form class = "name_feild">
+                <label for="name">NAME:</label>
+                <input type="text" id="name_3"><br>
+            </form>
+            
+            <label for="flavors">Flavor 1:</label>
+            <select name="flavors" class = "flavors flavor_1" onclick="dropDown()">
+                <option class = "choclate" value = "Choclate">Choclate</option>
+                <option class = "vanilla" value = "Vanilla">Vanilla</option>
+                <option class = "strawberry" value = "Strawberry">Strawberry</option>
+                <option class = "cookie" value = "Cookie Dough">Cookie Dough</option>
+                <option class = "moose" value = "Moose Tracks">Moose Tracks</option>
+            </select>
+
+            <label for="flavors">Flavor 2:</label>
+            <select name="flavors" class = "flavors flavor_2" onclick="dropDown()">
+                <option class = "choclate" value = "Choclate">Choclate</option>
+                <option class = "vanilla" value = "Vanilla">Vanilla</option>
+                <option class = "strawberry" value = "Strawberry">Strawberry</option>
+                <option class = "cookie" value = "Cookie Dough">Cookie Dough</option>
+                <option class = "moose" value = "Moose Tracks">Moose Tracks</option>
+            </select>
+
+            <label for="flavors">Flavor 3:</label>
+            <select name="flavors" class = "flavors flavor_3" onclick="dropDown()">
+                <option class = "choclate" value = "Choclate">Choclate</option>
+                <option class = "vanilla" value = "Vanilla">Vanilla</option>
+                <option class = "strawberry" value = "Strawberry">Strawberry</option>
+                <option class = "cookie" value = "Cookie Dough">Cookie Dough</option>
+                <option class = "moose" value = "Moose Tracks">Moose Tracks</option>
+            </select>
+
+            <label for="flavors">Flavor 4:</label>
+            <select name="flavors" class = "flavors flavor_4" onclick="dropDown()">
+                <option class = "choclate" value = "Choclate">Choclate</option>
+                <option class = "vanilla" value = "Vanilla">Vanilla</option>
+                <option class = "strawberry" value = "Strawberry">Strawberry</option>
+                <option class = "cookie" value = "Cookie Dough">Cookie Dough</option>
+                <option class = "moose" value = "Moose Tracks">Moose Tracks</option>
+            </select>
+
+            <label for="flavors">Flavor 5:</label>
+            <select name="flavors" class = "flavors flavor_5" onclick="dropDown()">
+                <option class = "choclate" value = "Choclate">Choclate</option>
+                <option class = "vanilla" value = "Vanilla">Vanilla</option>
+                <option class = "strawberry" value = "Strawberry">Strawberry</option>
+                <option class = "cookie" value = "Cookie Dough">Cookie Dough</option>
+                <option class = "moose" value = "Moose Tracks">Moose Tracks</option>
+            </select>
+        </div>
+
+        
+
+        <div id = "form_4">
+            <form class = "name_feild">
+                <label for="name">NAME:</label>
+                <input type="text" id="name_4"><br>
+            </form>
+            
+            <label for="flavors">Flavor 1:</label>
+            <select name="flavors" class = "flavors flavor_1" onclick="dropDown()">
+                <option class = "choclate" value = "Choclate">Choclate</option>
+                <option class = "vanilla" value = "Vanilla">Vanilla</option>
+                <option class = "strawberry" value = "Strawberry">Strawberry</option>
+                <option class = "cookie" value = "Cookie Dough">Cookie Dough</option>
+                <option class = "moose" value = "Moose Tracks">Moose Tracks</option>
+            </select>
+
+            <label for="flavors">Flavor 2:</label>
+            <select name="flavors" class = "flavors flavor_2" onclick="dropDown()">
+                <option class = "choclate" value = "Choclate">Choclate</option>
+                <option class = "vanilla" value = "Vanilla">Vanilla</option>
+                <option class = "strawberry" value = "Strawberry">Strawberry</option>
+                <option class = "cookie" value = "Cookie Dough">Cookie Dough</option>
+                <option class = "moose" value = "Moose Tracks">Moose Tracks</option>
+            </select>
+
+            <label for="flavors">Flavor 3:</label>
+            <select name="flavors" class = "flavors flavor_3" onclick="dropDown()">
+                <option class = "choclate" value = "Choclate">Choclate</option>
+                <option class = "vanilla" value = "Vanilla">Vanilla</option>
+                <option class = "strawberry" value = "Strawberry">Strawberry</option>
+                <option class = "cookie" value = "Cookie Dough">Cookie Dough</option>
+                <option class = "moose" value = "Moose Tracks">Moose Tracks</option>
+            </select>
+
+            <label for="flavors">Flavor 4:</label>
+            <select name="flavors" class = "flavors flavor_4" onclick="dropDown()">
+                <option class = "choclate" value = "Choclate">Choclate</option>
+                <option class = "vanilla" value = "Vanilla">Vanilla</option>
+                <option class = "strawberry" value = "Strawberry">Strawberry</option>
+                <option class = "cookie" value = "Cookie Dough">Cookie Dough</option>
+                <option class = "moose" value = "Moose Tracks">Moose Tracks</option>
+            </select>
+
+            <label for="flavors">Flavor 5:</label>
+            <select name="flavors" class = "flavors flavor_5" onclick="dropDown()">
+                <option class = "choclate" value = "Choclate">Choclate</option>
+                <option class = "vanilla" value = "Vanilla">Vanilla</option>
+                <option class = "strawberry" value = "Strawberry">Strawberry</option>
+                <option class = "cookie" value = "Cookie Dough">Cookie Dough</option>
+                <option class = "moose" value = "Moose Tracks">Moose Tracks</option>
+            </select>
+
+        </div>
+
+    
+        <div id = "form_5" class = "">
+            <form class = "name_feild">
+                <label for="name">NAME:</label>
+                <input type="text" id="name_5"><br>
+            </form>
+
+            <label for="flavors">Flavor 1:</label>
+            <select name="flavors" class = "flavors flavor_1" onclick="dropDown()">
+                <option class = "choclate" value = "Choclate">Choclate</option>
+                <option class = "vanilla" value = "Vanilla">Vanilla</option>
+                <option class = "strawberry" value = "Strawberry">Strawberry</option>
+                <option class = "cookie" value = "Cookie Dough">Cookie Dough</option>
+                <option class = "moose" value = "Moose Tracks">Moose Tracks</option>
+            </select>
+
+            <label for="flavors">Flavor 2:</label>
+            <select name="flavors" class = "flavors flavor_2" onclick="dropDown()">
+                <option class = "choclate" value = "Choclate">Choclate</option>
+                <option class = "vanilla" value = "Vanilla">Vanilla</option>
+                <option class = "strawberry" value = "Strawberry">Strawberry</option>
+                <option class = "cookie" value = "Cookie Dough">Cookie Dough</option>
+                <option class = "moose" value = "Moose Tracks">Moose Tracks</option>
+            </select>
+
+            <label for="flavors">Flavor 3:</label>
+            <select name="flavors" class = "flavors flavor_3" onclick="dropDown()">
+                <option class = "choclate" value = "Choclate">Choclate</option>
+                <option class = "vanilla" value = "Vanilla">Vanilla</option>
+                <option class = "strawberry" value = "Strawberry">Strawberry</option>
+                <option class = "cookie" value = "Cookie Dough">Cookie Dough</option>
+                <option class = "moose" value = "Moose Tracks">Moose Tracks</option>
+            </select>
+
+            <label for="flavors">Flavor 4:</label>
+            <select name="flavors" class = "flavors flavor_4" onclick="dropDown()">
+                <option class = "choclate" value = "Choclate">Choclate</option>
+                <option class = "vanilla" value = "Vanilla">Vanilla</option>
+                <option class = "strawberry" value = "Strawberry">Strawberry</option>
+                <option class = "cookie" value = "Cookie Dough">Cookie Dough</option>
+                <option class = "moose" value = "Moose Tracks">Moose Tracks</option>
+            </select>
+
+            <label for="flavors">Flavor 5:</label>
+            <select name="flavors" class = "flavors flavor_5" onclick="dropDown()">
+                <option class = "choclate" value = "Choclate">Choclate</option>
+                <option class = "vanilla" value = "Vanilla">Vanilla</option>
+                <option class = "strawberry" value = "Strawberry">Strawberry</option>
+                <option class = "cookie" value = "Cookie Dough">Cookie Dough</option>
+                <option class = "moose" value = "Moose Tracks">Moose Tracks</option>
+            </select>
+        </div>
+
+        
+
+        </div>
+
         <div>
-            <p id="result">The Result is: </p>
+            <p id="result"></p>
         </div>
     </body>
 </html>
